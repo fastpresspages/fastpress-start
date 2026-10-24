@@ -1,17 +1,17 @@
-# LaunchGrade: 127.0.0.1:4183
+# LaunchGrade: fastpresspages.github.io
 
-> **A+ · 99/100 — Launch-ready**
+> **A+ · 100/100 — Launch-ready**
 >
-> `http://127.0.0.1:4183/`  
-> Scanned Sat, 24 Oct 2026 04:25:28 GMT · 41 ms · 19 KB HTML
+> `https://fastpresspages.github.io/fastpress-start/`  
+> Scanned Sat, 24 Oct 2026 04:28:04 GMT · 314 ms · 19 KB HTML
 
-**47 pass · 1 warn · 0 fail · 4 info**
+**47 pass · 1 warn · 0 fail · 5 info**
 
 | Category | Score | Weight | Status |
 | --- | ---: | ---: | --- |
 | Conversion | 100/100 | 25% | 7✓ 0! 0× |
-| Trust | 100/100 | 15% | 6✓ 0! 0× |
-| Technical | 97/100 | 20% | 10✓ 1! 0× |
+| Trust | 100/100 | 15% | 5✓ 0! 0× |
+| Technical | 98/100 | 20% | 11✓ 1! 0× |
 | SEO | 100/100 | 15% | 9✓ 0! 0× |
 | Social sharing | 100/100 | 10% | 3✓ 0! 0× |
 | Accessibility | 100/100 | 5% | 6✓ 0! 0× |
@@ -42,16 +42,16 @@
 - ✅ **Links terms of service** — Terms link found.
 - ✅ **Explains who is behind the page** — About/team link found (“About”).
 - ✅ **Links a real social profile** — Social profile linked (github.com).
-- ✅ **Publishes a security contact** — security.txt is published with a contact.
+- ℹ️ **Publishes a security contact** — No /.well-known/security.txt (optional for launch pages).
 - ✅ **Shows a current footer** — Footer copyright is current (2026).
 
 ### Technical
 
-- ℹ️ **Serves over HTTPS** — Ignored by --ignore.
+- ✅ **Serves over HTTPS** — Final URL is HTTPS.
 - ✅ **Returns a healthy status** — Page returned HTTP 200.
-- ✅ **Loads the HTML quickly** — HTML arrived in 41 ms.
+- ✅ **Loads the HTML quickly** — HTML arrived in 314 ms.
 - ✅ **Compresses the response** — Content-Encoding: gzip.
-- ✅ **Sets cache headers** — Cache-Control: public, max-age=600.
+- ✅ **Sets cache headers** — Cache-Control: max-age=600.
 - ✅ **Is mobile-ready** — Responsive viewport is configured.
 - ✅ **Allows search indexing** — No noindex directive found.
 - ✅ **Declares a canonical URL** — Canonical: https://fastpresspages.github.io/fastpress-start/.
@@ -71,7 +71,7 @@
 - ✅ **Publishes a sitemap** — sitemap.xml is valid XML.
 - ✅ **Publishes robots.txt** — robots.txt is published.
 - ✅ **Adds structured data** — JSON-LD found: WebSite, SoftwareSourceCode, FAQPage.
-- ✅ **Links its own pages** — 6 internal links found.
+- ✅ **Links its own pages** — 12 internal links found.
 - ✅ **Has readable copy in the HTML** — 25.3% of the HTML is readable text.
 
 ### Social sharing
