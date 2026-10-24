@@ -1,0 +1,45 @@
+# FastPress Start
+
+> A free, zero-build launch page template for people who ship.
+
+FastPress Start is an Apache-2.0 HTML/CSS/JavaScript template with SEO, Open Graph, a working form, privacy and terms starting pages, accessibility, agent-readable files and a public LaunchGrade audit.
+
+## Live demo
+
+- https://fastpresspages.github.io/fastpress-start/
+- Audit report: https://fastpresspages.github.io/fastpress-start/samples/fastpress-start/report.html
+
+## What it includes
+
+- One `index.html`, one `styles.css`, one `app.js`, one `config.js`.
+- Email form with validation, honeypot, timeout and honest error handling. FormSubmit by default.
+- Title, description, canonical, Open Graph, Twitter card, JSON-LD, sitemap and robots.
+- `llms.txt`, `AGENTS.md`, semantic HTML, no-JS copy.
+- Skip link, landmarks, labelled fields, visible focus, reduced-motion support.
+- No analytics, cookies, pixels or localStorage.
+
+## Use it
+
+1. Fork or use the template: https://github.com/fastpresspages/fastpress-start/generate
+2. Edit `index.html` for your copy.
+3. Edit `config.js` for your form endpoint, email and URLs.
+4. Replace `privacy.html` and `terms.html` with your own practices.
+5. Replace the proof section with real proof, or delete it.
+6. Serve locally: `node scripts/serve.js`
+7. Audit: `npx -p github:fastpresspages/launchgrade launchgrade http://127.0.0.1:4173`
+8. Deploy with GitHub Pages (Settings → Pages → Source: GitHub Actions).
+
+## Rules
+
+- Do not invent proof, metrics, testimonials or partnerships.
+- Do not add tracking to a page that promises no tracking.
+- Do not put a secret key in client-side code.
+- If you change the URL, update the canonical, OG/Twitter URLs, `sitemap.xml`, `robots.txt` and `llms.txt`.
+
+## License
+
+Apache-2.0. See https://github.com/fastpresspages/fastpress-start/blob/main/LICENSE
+
+## Contact
+
+meetcode99@gmail.com
